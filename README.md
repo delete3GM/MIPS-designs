@@ -10,7 +10,7 @@ iverilog -o .\build\test.out .\tests\test.v .\src\mips.v
 ```
 vvp .\build\test.out
 ```
-### Finally use gtkware to open and analyze .vcd file
+### Finally use gtkwave to open and analyze .vcd file
 ```
 gtkwave.exe .\build\test.vcd
 ```
