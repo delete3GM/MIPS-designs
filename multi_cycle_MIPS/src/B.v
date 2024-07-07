@@ -4,6 +4,6 @@ module B(clk,busB_in,busB);
     output reg [31:0]busB;
     
     always @(posedge clk)
-        busB = busB_in;
+        busB <= busB_in;
 
 endmodule
